@@ -1,0 +1,12 @@
+# Core training dependencies used by the notebook in this repository.
+# The frozen-encoder / SMPL-related dependencies (torch, chumpy, human_body_prior,
+# and their exact pinned versions) are provided by the official MoCha_baseline_bundle
+# repository and are not duplicated here -- see README.md section 7.
+
+numpy
+scikit-learn
+imbalanced-learn
+tqdm
+
+# Installed automatically when you clone and use the official baseline bundle:
+# torch, chumpy, human_body_prior (see https://github.com/TaatiTeam/MoCha_baseline_bundle)

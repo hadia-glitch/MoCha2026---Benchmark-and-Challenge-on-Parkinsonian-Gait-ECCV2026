@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Large third-party assets fetched from the official baseline bundle -- not tracked here.
+MoCha_baseline_bundle/
