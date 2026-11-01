@@ -5,6 +5,8 @@ MDS-UPDRS gait severity (4 ordinal classes) from canonicalized SMPL motion seque
 built for the **[MoCha 2026 @ ECCV](https://mocha.care-pd.ca/) — Benchmark and Challenge
 on Parkinsonian Gait**.
 
+**36th of 113 teams**
+
 This repository documents the first submitted version of the model
 (CodaBench leaderboard **macro F1 = 0.40**).
 
@@ -272,8 +274,7 @@ Documented honestly, since they're the natural next steps rather than hidden fla
 - The `**1.2` class-weight exponent is a heuristic, not tuned against a
   precision/recall tradeoff objective — it was chosen to guarantee class 3 gets
   meaningful gradient signal, at the cost of the precision drop visible above.
-- LOSO variance across sites is substantial (F1 ranges from 0.27 to 0.52 depending on
-  which site is held out), which the single pooled leaderboard score doesn't surface.
+- LOSO variance across sites is substantial, which the single pooled leaderboard score doesn't surface.
 - The 512-dim representation comes from an encoder trained for general motion-text
   retrieval, not for clinical severity specifically — it is used as-is, frozen.
 
