@@ -2,7 +2,7 @@
 
 A classification head trained on top of a frozen motion-language encoder to predict
 MDS-UPDRS gait severity (4 ordinal classes) from canonicalized SMPL motion sequences,
-built for the **[MoCha 2026 @ ECCV](https://mocha.care-pd.ca/) — Benchmark and Challenge
+built for the **MoCha 2026 @ ECCV — Benchmark and Challenge
 on Parkinsonian Gait**.
 
 **36th of 113 teams**
